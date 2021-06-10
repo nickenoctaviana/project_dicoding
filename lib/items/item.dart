@@ -5,6 +5,7 @@ class Item{
   int price;
   Image image;
   String desc;
+  int counter;
 
-  Item ({this.name, this.price, this.image, this.desc});
+  Item ({this.name, this.price, this.image, this.desc, this.counter});
 }
